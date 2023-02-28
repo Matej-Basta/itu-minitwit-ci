@@ -80,3 +80,5 @@ If you need to connect and check that the MySQL db is working you can do somethi
 docker run --rm -it mysql:5.7 mysql -u root -proot -h 172.17.0.2 -D minitwit
 ```
 And change the IP address to be correct of course..
+
+<!-- comment -->
