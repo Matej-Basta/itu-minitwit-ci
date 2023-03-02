@@ -79,6 +79,7 @@ jobs:
           mkdir -p ~/.ssh/
           echo "$SSH_KEY" > ~/.ssh/minitwit.key
           chmod 600 ~/.ssh/minitwit.key
+          ls -l ~/.ssh/minitwit.key
         env:
           SSH_KEY: ${{ secrets.SSH_KEY }}
 
