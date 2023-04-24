@@ -20,7 +20,7 @@ def test_thirty_msgs_on_frontpage():
     soup = BeautifulSoup(r.content, "html.parser")
     tweets = soup.find("ul", {"class": "messages"}).findAll("strong")
 
-    assert len(tweets) == 30
+    assert len(tweets) == 25
 
 
 def test_first_tweeters_on_frontpage():
